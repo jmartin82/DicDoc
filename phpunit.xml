@@ -17,17 +17,17 @@
 			<directory>./tests</directory>
 		</testsuite>
 	</testsuites>
-
-	<!-- Add a filter to make sure we don't count venders and Tests in the coverage report -->
 	<filter>
-		<whitelist>
+		<whitelist processUncoveredFilesFromWhitelist="true">
 			<directory>./src</directory>
-			<exclude>./src/dd_function.php</exclude>
-			<exclude>./src/Dic.php</exclude>
+			<exclude>
+				<directory>./vendor</directory>
+				<directory>./tests</directory>
+				<directory suffix=".php">/path/to/files</directory>
+				<file>./src/dd_function.php</file>
+				<file>./src/Dic.php</file>
+			</exclude>
 		</whitelist>
-		<blacklist>
-			<directory>./vendor</directory>
-			<directory>./tests</directory>
-		</blacklist>
 	</filter>
+
 </phpunit>
