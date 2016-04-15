@@ -3,10 +3,7 @@ DIC - DOC
 
 Dependency Injection Container Documentator
 
-[![Build Status](https://travis-ci.org/jmartin82/DicDoc.svg?branch=master)](https://travis-ci.org/jmartin82/DicDoc)
-
-[![Coverage Status](https://coveralls.io/repos/github/jmartin82/DicDoc/badge.svg?branch=master)](https://coveralls.io/github/jmartin82/DicDoc?branch=master)
-
+[![Build Status](https://travis-ci.org/jmartin82/DicDoc.svg?branch=master)](https://travis-ci.org/jmartin82/DicDoc) [![Coverage Status](https://coveralls.io/repos/github/jmartin82/DicDoc/badge.svg?branch=master)](https://coveralls.io/github/jmartin82/DicDoc?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jmartin82/DicDoc/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/jmartin82/DicDoc/?branch=master)
 
 
