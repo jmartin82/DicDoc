@@ -1,7 +1,6 @@
 <?php
 namespace DicDoc\Interfaces;
 
-interface CallerPositionFinder
-{
-    public function getCallerPosition();
+interface CallerPositionFinder {
+	public function getCallerPosition();
 }
