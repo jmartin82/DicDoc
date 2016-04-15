@@ -1,0 +1,33 @@
+{
+  "name": "jmartin82/DicDoc",
+  "description": "Magic type hinting for dependency injection container results",
+  "license": "MIT",
+  "keywords": [
+    "Ioc",
+    "dic",
+    "documentation"
+  ],
+  "authors": [
+    {
+      "name": "Jordi Martin  ",
+      "email": "jordimartin@gmail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "DicDoc\\": "src"
+    },
+    "files": [
+      "src/dd_function.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\": "tests"
+    }
+  }
+}
