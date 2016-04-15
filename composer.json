@@ -1,5 +1,5 @@
 {
-  "name": "jmartin82/DicDoc",
+  "name": "jmartin82/dic-doc",
   "description": "Magic type hinting for dependency injection container results",
   "license": "MIT",
   "keywords": [
