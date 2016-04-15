@@ -3,6 +3,8 @@ DIC - DOC
 
 Dependency Injection Containers Documentator
 
+[![Build Status](https://travis-ci.org/jmartin82/DicDoc.svg?branch=master)](https://travis-ci.org/jmartin82/DicDoc)
+
 
 The problem
 -----------
