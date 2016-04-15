@@ -7,7 +7,7 @@ Dependency Injection Containers Documentator
 The problem
 -----------
 
-Since I've been starting to use Dependency Injection Containers in my projectes, the IDEs no longer understands what’s going on in some places in my code.
+Since I've been using Dependency Injection Containers in my projects, the IDEs no longer understands what’s going on in some places in my code.
 
 This problems affect the code hints, autocompletion and refactoring tools when dealing with classes. Then my IDE becomes useless.
 
