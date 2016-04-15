@@ -1,9 +1,30 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<phpunit bootstrap="vendor/autoload.php">
-
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         stopOnError="false"
+         stopOnIncomplete="false"
+         stopOnSkipped="false"
+         syntaxCheck="false"
+         bootstrap="vendor/autoload.php">
     <testsuites>
-        <testsuite name="The project's test suite">
-            <directory>./tests</directory>
+        <testsuite name="Application Test Suite">
+            <directory>./tests/</directory>
         </testsuite>
     </testsuites>
+
+    <!-- Add a filter to make sure we don't count venders and Tests in the coverage report -->
+    <filter>
+        <whitelist>
+            <exclude>
+                <directory>./vendor</directory>
+                <directory>./tests</directory>
+            </exclude>
+        </whitelist>
+    </filter>
 </phpunit>
